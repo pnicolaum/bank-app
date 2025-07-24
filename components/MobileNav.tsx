@@ -31,7 +31,8 @@ const MobileNav = ({ user }: MobileNavProps) => {
             className="cursor-pointer"
           />
         </SheetTrigger>
-        <SheetContent side="left" className="border-none bg-white">
+        <SheetContent side="left" className="w-[264px] max-w-[80vw] border-none bg-white">
+          <SheetTitle className="sr-only">Menu</SheetTitle>
           <Link href="/" className="nav-mobile-top" >
             <Image 
               src="/icons/logo.svg"
