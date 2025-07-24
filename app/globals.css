@@ -226,6 +226,7 @@
   color: #1f2937;
   border-radius: 0.5rem;
   border: 1px solid #d1d5db;
+  padding-left: 0.5rem;
 }
 
 .input-class::placeholder {
@@ -835,6 +836,10 @@
   font-weight: 600;
   color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  /* background-color: #0179FE; */
+  background: linear-gradient(to top right, #60aaff, #0179FE, #015fcc);
+
+  cursor: pointer;
 }
 
 .form-link {
