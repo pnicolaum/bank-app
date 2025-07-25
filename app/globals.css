@@ -740,8 +740,10 @@
   border: 1px solid var(--bankGradient);
   background: var(--bank-gradient);
   font-weight: 600;
-  color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background: #0179FE;
+
 }
 
 .plaidlink-ghost {
